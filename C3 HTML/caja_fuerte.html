@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry Security SAS - Caja fuerte</title>
+</head>
+<body>
+
+    <header>
+
+        <img src="./img/logo.png" alt="Logotipo de la empresa de henry" title="Henry SAS">
+
+        <nav>
+
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="generar_contrasena.html"><li>Generar Contraseña</li></a>
+                <a href="caja_fuerte.html"><li>Caja Fuerte</li></a>
+                <a href="monitoreo_actividad.html"><li>Monitoreo Actividad</li></a>
+                <a href="gestion_usuarios.html"><li>Gestión de usuarios</li></a>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <h1>Asistente de Seguridad</h1>
+
+            <span>Caja fuerte:</span>
+
+        </section>
+
+        <section>
+
+            <form>
+
+                <div>
+
+                    <label for="codigo_secreto">Código Secreto</label>
+                    <input type="text" name="codigo_secreto">
+                
+                    <label for="intentos">Cantidad de Intentos</label>
+                    <input type="text" name="intentos" >
+
+                    <button>GUARDAR</button>
+
+                </div>
+
+                <div>
+                    <label for="validacion">Validacion Código Secreto</label>
+                    <input type="text" name="validacion">
+                </div>
+                
+                <div>
+                    <button>VALIDAR CÓDIGO</button>
+                    <button>RESET</button>
+                </div>
+
+                
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
