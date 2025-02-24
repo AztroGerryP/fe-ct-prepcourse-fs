@@ -3,7 +3,7 @@ body{
 }
 
 .title{
-    font-size: 40px;
+    font-size: 3em;
     color: crimson;
 }
 
@@ -12,5 +12,24 @@ body{
 }
 
 #principal{
-    font-size: 70px;
+    font-size: 5em;
+}
+
+#titulos{
+    width: 65vw;
+    margin:  0 auto;
+    padding: 3em;
+    border: 2px solid black;
+}
+
+.tarjeta{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0 1em 0 1em;
+    border-radius: 8%;
+    transition: 2s;
+}
+
+.tarjeta:hover{
+    background: green;
 }
